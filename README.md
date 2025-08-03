@@ -16,7 +16,7 @@ Projeto FastAPI para gerar **códigos de telas mobile** usando modelos de lingua
 ## 📂 Estrutura do projeto
 
 ```bash
-mobile-codegen/
+code-gen/
 ├── app/
 │   ├── main.py       # API FastAPI
 │   ├── schemas.py    # Modelos Pydantic (request/response)
@@ -24,7 +24,7 @@ mobile-codegen/
 ├── outputs/          # Códigos gerados em .md
 ├── requirements.txt  # Dependências
 ├── .env              # (opcional) configurações
-└── README.md         # Este arquivo
+└── README.md         
 ```
 
 ---
@@ -34,8 +34,8 @@ mobile-codegen/
 1. **Clone o repositório:**
 
 ```bash
-git clone https://github.com/seu-usuario/mobile-codegen.git
-cd mobile-codegen
+git clone https://github.com/danielmfr/code-gen.git
+cd code-gen
 ```
 
 2. **Crie e ative um ambiente virtual (recomendado):**
